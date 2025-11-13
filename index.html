@@ -15,15 +15,50 @@
     <meta property="og:title" content="Boreal Clim - Expert Climatisation & Pompe à Chaleur Île-de-France">
     <meta property="og:description" content="Installation, dépannage et entretien de climatisation en Île-de-France. Devis gratuit. Marques premium.">
     <meta property="og:image" content="https://www.borealclim.fr/images/logo.jpg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:locale" content="fr_FR">
+    <meta property="og:site_name" content="Boreal Clim">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Boreal Clim - Expert Climatisation & Pompe à Chaleur Île-de-France">
+    <meta name="twitter:description" content="Installation, dépannage et entretien de climatisation en Île-de-France. Devis gratuit. Marques premium.">
+    <meta name="twitter:image" content="https://www.borealclim.fr/images/logo.jpg">
 
     <!-- Geo Tags -->
     <meta name="geo.region" content="FR-IDF">
     <meta name="geo.placename" content="Île-de-France">
 
+    <!-- Additional Meta Tags -->
+    <meta name="theme-color" content="#4C6FFC">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="format-detection" content="telephone=yes">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
     <link rel="canonical" href="https://www.borealclim.fr/">
+
+    <!-- Sitemap Reference -->
+    <link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml">
+
+    <!-- Hreflang for Language -->
+    <link rel="alternate" hreflang="fr" href="https://www.borealclim.fr/">
+    <link rel="alternate" hreflang="fr-FR" href="https://www.borealclim.fr/">
+    <link rel="alternate" hreflang="x-default" href="https://www.borealclim.fr/">
+
     <link rel="stylesheet" href="styles.css">
+
+    <!-- DNS Prefetch and Preconnect for Performance -->
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com">
+    <link rel="dns-prefetch" href="https://fonts.gstatic.com">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!-- Preload Critical Resources -->
+    <link rel="preload" href="styles.css" as="style">
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;600;700&family=Oswald:wght@400;600;700&family=Poppins:wght@300;400;500;600&display=swap" as="style">
+
     <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;600;700&family=Oswald:wght@400;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
 
     <!-- Google Reviews Configuration -->
@@ -41,16 +76,23 @@
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
-      "@type": "LocalBusiness",
+      "@type": "HVACBusiness",
       "name": "Boreal Clim",
-      "image": "https://www.borealclim.fr/images/logo.jpg",
+      "image": [
+        "https://www.borealclim.fr/images/logo.jpg",
+        "https://www.borealclim.fr/images/realisation-1.jpg"
+      ],
       "@id": "https://www.borealclim.fr",
       "url": "https://www.borealclim.fr",
-      "telephone": "+33699452113",
+      "telephone": "+33744771438",
       "email": "borealclim@gmail.com",
+      "description": "Expert climatisation et pompe à chaleur en Île-de-France. Installation, dépannage 24h, entretien. Marques Daikin, Mitsubishi, Bosch. Devis gratuit.",
       "address": {
         "@type": "PostalAddress",
+        "streetAddress": "1 avenue Perraton",
+        "addressLocality": "Villeparisis",
         "addressRegion": "Île-de-France",
+        "postalCode": "77270",
         "addressCountry": "FR"
       },
       "geo": {
@@ -58,23 +100,27 @@
         "latitude": 48.8566,
         "longitude": 2.3522
       },
-      "openingHoursSpecification": {
-        "@type": "OpeningHoursSpecification",
-        "dayOfWeek": [
-          "Monday",
-          "Tuesday",
-          "Wednesday",
-          "Thursday",
-          "Friday"
-        ],
-        "opens": "08:00",
-        "closes": "18:00"
-      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday"
+          ],
+          "opens": "08:00",
+          "closes": "18:00"
+        }
+      ],
       "priceRange": "€€",
       "aggregateRating": {
         "@type": "AggregateRating",
         "ratingValue": "5",
-        "reviewCount": "6"
+        "reviewCount": "6",
+        "bestRating": "5",
+        "worstRating": "1"
       },
       "serviceArea": {
         "@type": "GeoCircle",
@@ -84,19 +130,154 @@
           "longitude": 2.3522
         },
         "geoRadius": "50000"
-      }
+      },
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Services de climatisation",
+        "itemListElement": [
+          {
+            "@type": "OfferCatalog",
+            "name": "Installation de climatisation",
+            "itemListElement": [
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Installation climatisation réversible",
+                  "description": "Installation professionnelle de climatisation réversible pour particuliers et professionnels"
+                }
+              }
+            ]
+          },
+          {
+            "@type": "OfferCatalog",
+            "name": "Installation pompe à chaleur",
+            "itemListElement": [
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Installation pompe à chaleur air-air",
+                  "description": "Installation de pompes à chaleur air-air efficaces et économiques"
+                }
+              }
+            ]
+          },
+          {
+            "@type": "OfferCatalog",
+            "name": "Dépannage climatisation",
+            "itemListElement": [
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Dépannage climatisation 24h/7j",
+                  "description": "Intervention rapide pour dépannage climatisation en Île-de-France"
+                }
+              }
+            ]
+          },
+          {
+            "@type": "OfferCatalog",
+            "name": "Contrats d'entretien",
+            "itemListElement": [
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Entretien annuel climatisation",
+                  "description": "Maintenance préventive et entretien régulier de climatisation et pompe à chaleur"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "brand": [
+        {
+          "@type": "Brand",
+          "name": "Daikin"
+        },
+        {
+          "@type": "Brand",
+          "name": "Mitsubishi Electric"
+        },
+        {
+          "@type": "Brand",
+          "name": "Fujitsu"
+        },
+        {
+          "@type": "Brand",
+          "name": "Toshiba"
+        },
+        {
+          "@type": "Brand",
+          "name": "Bosch"
+        },
+        {
+          "@type": "Brand",
+          "name": "Atlantic"
+        },
+        {
+          "@type": "Brand",
+          "name": "Airwell"
+        }
+      ],
+      "sameAs": [
+        "https://www.borealclim.fr"
+      ]
+    }
+    </script>
+
+    <!-- BreadcrumbList Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Accueil",
+          "item": "https://www.borealclim.fr/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Contrats d'entretien",
+          "item": "https://www.borealclim.fr/#contrats"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Dépannages",
+          "item": "https://www.borealclim.fr/#depannages"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Réalisations",
+          "item": "https://www.borealclim.fr/#realisations"
+        },
+        {
+          "@type": "ListItem",
+          "position": 5,
+          "name": "Contact",
+          "item": "https://www.borealclim.fr/#contact"
+        }
+      ]
     }
     </script>
 </head>
 <body>
     <!-- Header -->
-    <header class="header" id="header">
+    <header class="header" id="header" role="banner">
         <div class="container">
             <div class="header-content">
                 <div class="logo">
-                    <img src="images/logo.jpg" alt="Boreal Clim" class="logo-img">
+                    <img src="images/logo.jpg" alt="Boreal Clim - Expert climatisation et pompe à chaleur Île-de-France" class="logo-img">
                 </div>
-                <nav class="nav" id="nav-menu">
+                <nav class="nav" id="nav-menu" role="navigation" aria-label="Navigation principale">
                     <ul class="nav-list">
                         <li><a href="#accueil" class="nav-link">ACCUEIL</a></li>
                         <li><a href="#contrats" class="nav-link">CONTRATS D'ENTRETIEN</a></li>
@@ -105,7 +286,7 @@
                         <li><a href="#contact" class="nav-link">CONTACT</a></li>
                     </ul>
                 </nav>
-                <button class="nav-toggle" id="nav-toggle">
+                <button class="nav-toggle" id="nav-toggle" aria-label="Ouvrir le menu de navigation" aria-expanded="false">
                     <span></span>
                     <span></span>
                     <span></span>
@@ -177,10 +358,10 @@
     </section>
 
     <!-- About Section -->
-    <section class="about" id="apropos">
+    <section class="about" id="apropos" aria-labelledby="apropos-title">
         <div class="container">
             <div class="section-header">
-                <h2 class="section-title">À propos de Boreal Clim</h2>
+                <h2 class="section-title" id="apropos-title">À propos de Boreal Clim</h2>
             </div>
             <div class="about-intro-grid">
                 <div class="about-image">
@@ -215,10 +396,10 @@
     </div>
 
     <!-- Services - Contrats d'entretien -->
-    <section class="services" id="contrats">
+    <section class="services" id="contrats" aria-labelledby="contrats-title">
         <div class="container">
             <div class="section-header">
-                <h2 class="section-title">Contrats d'Entretien</h2>
+                <h2 class="section-title" id="contrats-title">Contrats d'Entretien</h2>
                 <p class="section-subtitle">Nettoyage des filtres et maintenance préventive</p>
             </div>
             <div class="service-detail">
@@ -244,10 +425,10 @@
     </div>
 
     <!-- Dépannages Section -->
-    <section class="emergency-service" id="depannages">
+    <section class="emergency-service" id="depannages" aria-labelledby="depannages-title">
         <div class="container">
             <div class="section-header">
-                <h2 class="section-title">Dépannage Climatisation</h2>
+                <h2 class="section-title" id="depannages-title">Dépannage Climatisation</h2>
                 <p class="section-subtitle">Intervention rapide pour tous types de pannes • Diagnostic précis • Réparation efficace</p>
             </div>
 
@@ -406,10 +587,10 @@
     </div>
 
     <!-- Réalisations Section -->
-    <section class="realisations" id="realisations">
+    <section class="realisations" id="realisations" aria-labelledby="realisations-title">
         <div class="container">
             <div class="section-header">
-                <h2 class="section-title">Nos Réalisations</h2>
+                <h2 class="section-title" id="realisations-title">Nos Réalisations</h2>
                 <p class="section-subtitle">Découvrez quelques-unes de nos installations</p>
             </div>
             <div class="realisations-intro-grid">
@@ -479,10 +660,10 @@
     </div>
 
     <!-- Avis Clients Section -->
-    <section class="testimonials">
+    <section class="testimonials" aria-labelledby="testimonials-title">
         <div class="container">
             <div class="section-header">
-                <h2 class="section-title">Avis de Nos Clients</h2>
+                <h2 class="section-title" id="testimonials-title">Avis de Nos Clients</h2>
                 <p class="section-subtitle">Ce qu'ils disent de nos services</p>
             </div>
             <div class="testimonials-carousel">
@@ -576,11 +757,11 @@
     </div>
 
     <!-- Partenaires Section -->
-    <section class="partners">
+    <section class="partners" aria-labelledby="partners-title">
         <div class="partners-background"></div>
         <div class="container">
             <div class="section-header">
-                <h2 class="section-title">Nos Partenaires</h2>
+                <h2 class="section-title" id="partners-title">Nos Partenaires</h2>
                 <p class="section-subtitle">Nous travaillons avec les plus grandes marques</p>
             </div>
             <div class="partners-carousel">
@@ -637,10 +818,10 @@
     </div>
 
     <!-- Contact Section -->
-    <section class="contact" id="contact">
+    <section class="contact" id="contact" aria-labelledby="contact-title">
         <div class="container">
             <div class="section-header">
-                <h2 class="section-title">Contact</h2>
+                <h2 class="section-title" id="contact-title">Contact</h2>
                 <p class="section-subtitle">Contactez-nous pour un devis personnalisé</p>
             </div>
             <div class="contact-grid">
@@ -667,24 +848,30 @@
                         </div>
                     </div>
                 </div>
-                <form class="contact-form" id="contact-form">
+                <form class="contact-form" id="contact-form" aria-label="Formulaire de contact">
                     <div class="form-group">
-                        <input type="text" id="name" name="name" placeholder="Nom" required>
+                        <label for="name" class="sr-only">Nom</label>
+                        <input type="text" id="name" name="name" placeholder="Nom" required aria-required="true">
                     </div>
                     <div class="form-group">
-                        <input type="email" id="email" name="email" placeholder="E-mail" required>
+                        <label for="email" class="sr-only">E-mail</label>
+                        <input type="email" id="email" name="email" placeholder="E-mail" required aria-required="true">
                     </div>
                     <div class="form-group">
-                        <input type="tel" id="phone" name="phone" placeholder="Téléphone" required>
+                        <label for="phone" class="sr-only">Téléphone</label>
+                        <input type="tel" id="phone" name="phone" placeholder="Téléphone" required aria-required="true">
                     </div>
                     <div class="form-group">
-                        <input type="text" id="address" name="address" placeholder="Adresse" required>
+                        <label for="address" class="sr-only">Adresse</label>
+                        <input type="text" id="address" name="address" placeholder="Adresse" required aria-required="true">
                     </div>
                     <div class="form-group">
-                        <input type="text" id="subject" name="subject" placeholder="Objet" required>
+                        <label for="subject" class="sr-only">Objet</label>
+                        <input type="text" id="subject" name="subject" placeholder="Objet" required aria-required="true">
                     </div>
                     <div class="form-group">
-                        <textarea id="message" name="message" rows="5" placeholder="Rédigez votre message ici..." required></textarea>
+                        <label for="message" class="sr-only">Message</label>
+                        <textarea id="message" name="message" rows="5" placeholder="Rédigez votre message ici..." required aria-required="true"></textarea>
                     </div>
                     <button type="submit" class="btn btn-primary btn-full">ENVOYER</button>
                 </form>
@@ -713,7 +900,7 @@
     </div>
 
     <!-- Footer -->
-    <footer class="footer">
+    <footer class="footer" role="contentinfo">
         <div class="container">
             <div class="footer-content">
                 <div class="footer-section">

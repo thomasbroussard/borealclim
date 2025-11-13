@@ -1,4 +1,17 @@
+# Robots.txt pour Boreal Clim
+# https://www.borealclim.fr
+
 User-agent: *
 Allow: /
 
+# Fichiers à ne pas crawler
+Disallow: /script.js
+Disallow: /styles.css
+Disallow: /*.js$
+Disallow: /*.css$
+
+# Sitemap
 Sitemap: https://www.borealclim.fr/sitemap.xml
+
+# Crawl-delay pour ne pas surcharger le serveur
+Crawl-delay: 1
